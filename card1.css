@@ -10,13 +10,13 @@
     background: #333
 }
 
-.conatiner{
+.conatiner1{
     position: relative;
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.conatiner .card{
+.conatiner1 .card3{
     position: relative;
     width: 300px;
     height: 300px;
@@ -27,11 +27,11 @@
     overflow: hidden;
 }
 
-.conatiner .card:hover{
+.conatiner1 .card3:hover{
     height: 420px;
 }
 
-.conatiner .card .img-bx {
+.conatiner1 .card3 .img-bx {
     position: relative;
     width: 100%;
     height: 260px;
@@ -43,13 +43,13 @@
     
 }
 
-.conatiner .card:hover .img-bx{
+.conatiner1 .card3:hover .img-bx{
     background-size: 110%;
     filter: blur(0px);
     -webkit-filter: blur(0px);
 }
 
-.conatiner .card .img-bx::before {
+.conatiner1 .card3 .img-bx::before {
     content: "";
     position: absolute;
     bottom: -40px;
@@ -59,7 +59,7 @@
     background: #fff;
 }
 
-.conatiner .card .img-bx::after{
+.conatiner1 .card3 .img-bx::after{
     content: "";
     position: absolute;
     right: 0;
@@ -72,7 +72,7 @@
     
 }
 
-.conatiner .card .content {
+.conatiner1 .card3 .content {
    position: relative;
    top: -40px;
    z-index: 10;
@@ -80,14 +80,14 @@
    transition: 0.5s;
 }
 
-.conatiner .card .content h3{
+.conatiner1 .card3 .content h3{
     position: relative;
     font-size: 1.25rem;
     color: #333;
 
 }
 
-.conatiner .card .content span {
+.conatiner1 .card3 .content span {
     position: absolute;
     bottom: -15px;
     font-weight: 400;
@@ -95,13 +95,13 @@
     opacity: 0.75;
 }
 
-.conatiner .card .content p {
+.conatiner1 .card3 .content p {
     position: relative;
     opacity: 0;
     transition: 0.5s;
     color: #333;
 }
 
-.conatiner .card:hover .content p {
+.conatiner1 .card3:hover .content p {
     opacity: 1;
 }
