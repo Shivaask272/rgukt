@@ -148,10 +148,9 @@ htl1, bq1 {
   align-items: center;
   background-color: #161616;
   overflow: hidden;
-  /* transform: scale(1.5); */
 }
 
-/* button */
+
 .btn2 {
   margin: 100px;
   padding: 15px 40px;
@@ -174,7 +173,6 @@ htl1, bq1 {
   top: 0;
   border-radius: 10px;
 }
-/* glow */
 .btn2::before {
   content: "";
   background: linear-gradient(
@@ -202,7 +200,6 @@ htl1, bq1 {
   100% {background-position: 0 0;}
 }
 
-/* hover */
 .btn2:hover::before {
   opacity: 1;
 }
